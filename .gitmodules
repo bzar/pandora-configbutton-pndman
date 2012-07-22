@@ -1,0 +1,9 @@
+[submodule "lib/pandora-configbutton/src"]
+	path = lib/pandora-configbutton/src
+	url = https://github.com/slaeshjag/pandora-configbutton.git
+[submodule "lib/pndman/src"]
+	path = lib/pndman/src
+	url = https://github.com/Cloudef/libpndman.git
+[submodule "lib/jansson/src"]
+	path = lib/jansson/src
+	url = https://github.com/akheron/jansson.git
