@@ -40,9 +40,9 @@ int getinfo(PLUGIN_INFO *info) {
   for(d = device; d; d = d->next)
   {
     pndman_device_read_repository(repository, d);
+    pndman_device_read_repository(repository->next, d);
   }
   
-  for (d = device; d; d = d->next) pndman_package_crawl(0, d, repository);
   pndman_repository_check_local(repository);
   
   int numUpdates = pndman_repository_check_updates(repository);
